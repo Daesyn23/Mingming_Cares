@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MingMing Cares</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_register">Not yet Register? Click to <u>register</u>.</string>
+    <string name="click_to_login">Have an account? Click to <u>login</u>.</string>
+    <string name="logout">LOG OUT</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="groomSentence">Do these steps to ensure that your pet is clean and fresh!</string>
+    <string name="have_these_kind_of_services_been_provided_to_your_pet">Have these kind of services been provided to your pet?</string>
+    <string name="ear_cleaning">Ear Cleaning</string>
+    <string name="nail_trimming">Nail Trimming</string>
+    <string name="fur_trimming">Fur Trimming</string>
+    <string name="bathing">Bathing</string>
+    <string name="medicines">Medicines</string>
+    <string name="allergies">Allergies</string>
+    <string name="back_to_health">Back to Health</string>
+    <string name="vaccination">Vaccination</string>
+</resources>

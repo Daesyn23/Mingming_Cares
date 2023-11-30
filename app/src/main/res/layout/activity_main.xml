@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="196dp"
+        android:layout_height="126dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/title" />
+
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:layout_editor_absoluteX="167dp" />
+
+    <ImageButton
+        android:id="@+id/idLabTest"
+        android:layout_width="124dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#FDB095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/healthbtn" />
+
+    <ImageButton
+        android:id="@+id/idBuyMedicine"
+        android:layout_width="124dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="#FDB095"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toEndOf="@+id/idLabTest"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/dietbtn" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="83dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:text="HEALTH"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idLabTest" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:text="DIET"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idBuyMedicine" />
+
+    <ImageButton
+        android:id="@+id/idFindDoctor"
+        android:layout_width="124dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FDB095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/groomingbtn" />
+
+    <ImageButton
+        android:id="@+id/idHealthArticles"
+        android:layout_width="124dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="#FDB095"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/idFindDoctor"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/communitybtn" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="10dp"
+        android:text="GROOMING"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idFindDoctor" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="64dp"
+        android:text="COMMUNITY"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idHealthArticles" />
+
+    <ImageButton
+        android:id="@+id/idOrderDetails"
+        android:layout_width="124dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FDB095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@drawable/schedulebtn" />
+
+    <ImageButton
+        android:id="@+id/idExit"
+        android:layout_width="124dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="#FDB095"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:srcCompat="@drawable/veterinarianbtn" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="10dp"
+        android:text="SCHEDULE"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idOrderDetails"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="50dp"
+        android:text="VETERINARIAN"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idExit" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginStart="108dp"
+        app:layout_constraintTop_toBottomOf="@id/textView17"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

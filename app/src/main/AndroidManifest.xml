@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light"
+        tools:targetApi="31">
+        <activity
+            android:name=".Bathing"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".FurTrimming"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".NailTrimming"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".EarCleaning"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".Allergies"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".Medicines"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".Operation"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".Vaccination"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".Schedule"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".Veterinarian"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".Community"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".Grooming"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".Diet"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".Health"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+    </application>
+
+</manifest>

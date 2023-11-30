@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "997473591849",
+    "project_id": "login-register-mingming",
+    "storage_bucket": "login-register-mingming.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997473591849:android:8946cad9ee1dcfb440b238",
+        "android_client_info": {
+          "package_name": "com.example.mingmingcares"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997473591849-vkg4ct096ftm42lm487e6edbeteg8ki7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT0KLHF8lcw5ILOfRRy5q14U-PS873NE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997473591849-vkg4ct096ftm42lm487e6edbeteg8ki7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
